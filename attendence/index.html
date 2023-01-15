@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <!-- Font Awesome -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+/>
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<input type="checkbox" id="mobile-menu" />
+
+<div class="sidebar">
+  <div class="logo">
+    
+    <h2><img src="img/goal.webp" alt="" /></h2>
+  </div>
+  <div class="menu">
+    <ul>
+      <li><i class="fa fa-dashboard"></i> Dashboard</li>
+      <li><i class="fa fa-arrow-down-9-1"></i> Attendance</li>
+      <li><i class="fa fa-person"></i> Employees</li>
+      <li><i class="fa fa-newspaper"></i> Leaves</li>
+      <li><i class="fa fa-circle"></i> Expense</li>
+      <li><i class="fa fa-tenge"></i> notice</li>
+      <li><i class="fa fa-star"></i> Departments</li>
+      <li><i class="fa fa-cog" ></i></i> Settings<i class="fa fa-chevron-down"></i></li>
+      <li>
+        <h8 class="little"> Approval</h8>
+        <h8 class="little"> Leaves</h8>
+        <h8 class="little">Subscription</h8> 
+      </li>
+      
+      <li class="sign-out"><i class="fa fa-sign-out-alt"></i> log Out</li>
+    </ul>
+  </div>
+</div>
+<label for="mobile-menu" id="mmenu">
+  <i class="fa fa-bars"></i>
+  <i class="fa fa-times"></i>
+</label>
+<div class="content">
+  <div class="top">
+    <div class="search">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="SEARCH"/>
+    </div>
+    
+    <div class="user">
+      <i class="fa fa-calculator"></i>
+      <i id="bell" class="fa fa-bell" aria-hidden="true"></i>
+      <i class="fa fa-person"></i>
+      
+    </div>
+    
+  </div>
+
+  <div class="trying">
+    <h2 id="heading">Attendance</h2>
+    <button class="button">Download Report</button> 
+  </div>
+  
+
+  <div class="categories">
+    <div class="category">
+      <h7>jan 03,2023</h7><i class="fas fa-calendar-times"></i><br>
+  </div>
+  
+    <div class="category">
+      <h7>Department</h7><i class="fas fa-home"></i><br>   
+    </div>
+  
+
+ 
+    <div class="category">
+      <h7>Attendance <i class="fa fa-chevron-down"></i></h5><br> 
+    </div>
+  
+ 
+    <div class="category">
+      <h7>Present <i class="fa fa-chevron-down"></i></h7><br>  
+    </div>
+  
+  
+    <div class="category">
+      <h7>check-in</h7><br>  
+    </div>
+  
+
+  
+    <div class="category">
+      <h7>Location</h5><br>  
+    </div>
+  
+  
+    <div class="category">
+      <h7>Designation<i class="fa fa-chevron-down"></i></h5><br>  
+    </div>
+ 
+  
+    <div class="category">
+      <h7>Department<i class="fa fa-chevron-down"></i></h5><br>  
+    </div>
+  
+  </div>
+  
+      <section class="attendance">
+        <div class="attendance-list">
+          <h1>Attendance List</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Employee Name</th>
+                <th>Department</th>
+                <th>Check-in</th>
+                <th>Check-out</th>
+                <th>Remark</th>
+                <th>Hours</th>
+                <th>Overtime</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Jahid Hasan</td>
+                <td>Hr & admin</td>
+                <td> <h8 class="ok">09:45 am</h8></td>
+                <td><h8 class="ok">06:05 pm</h8> </td>
+              
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><i class="fa fa-eye"></i></td>
+              </tr>
+              <tr \>
+                <td>0Jahid Hasan</td>
+                <td>Hr & admin</td>
+                <td> <h8 class="not-ok">10:30 am</h8></td>
+                <td><h8 class="not-ok">05:30 pm</h8> </td>
+                <td><i class="fa fa-file"></i></td>
+                <td></td>
+                <td></td>
+                <td><i class="fa fa-eye"></i></td>
+              </tr>
+              <tr>
+                <td>0Jahid Hasan</td>
+                <td>Hr & admin</td>
+                <td> <h8 class="ok">09:45 am</h8></td>
+                <td><h8 class="ok">06:30 pm</h8> </td>
+                
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><i class="fa fa-eye"></i></td>
+              </tr>
+              <tr>
+                <td>0Jahid Hasan</td>
+                <td>Hr & admin</td>
+                <td> <h8 class="not-ok">10:45 am</h8></td>
+                <td><h8 class="not-ok">05:45 pm</h8> </td>
+               
+                <td><i class="fa fa-file"></i></td>
+                <td></td>
+                <td></td>
+                <td><i class="fa fa-eye"></i></td>
+              </tr>
+             
+            </tbody>
+          </table>
+        </div>
+      </section>
+      
+      </div>
+      
+    
+    
+</body>
+</html>
+
+
